@@ -1,36 +1,23 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="exty.css">
 <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+<script src="jassy.js"></script>
 </head>
 <body>
+<div id="search">
 <h1 id="mainHeading"> Artist Directory</h1>
-<div class="d">
-<img src="https://randomuser.me/api/portraits/med/women/3.jpg" class="picshu">
-<h3 class="artistName">Kate Kappa</h3>
-<p class="artistDescription"> greatest artist</p>
+<input type="text" id="searchBar">
+<button type="button" onclick="myFunction()" id="addButton1">Add an Artist</button>
 </div>
-<div class="d">
-<img src="https://randomuser.me/api/portraits/med/women/6.jpg" class="picshu">
-<h3 class="artistName">Brea Malone</h3>
-<p class="artistDescription"> greatest artist</p>
+<div id="query">
+<input type="text" maxlength="40" placeholder="ArtistName" id="nameBar" class="qbars"><br>
+<input type="text" maxlength="40" placeholder = "About Artist" id="aboutBar" class="qbars"><br>
+<input type="text" placeholder ="ImageURL" id="urlBar" class="qbars"><br>
+<button type="button" id="addButton2" onclick = "addArtist()">Add</button>
 </div>
-<div class="d">
-<img src="https://randomuser.me/api/portraits/med/men/5.jpg" class="picshu">
-<h3 class="artistName">Carl Carlson</h3>
-<p class="artistDescription"> greatest artist</p>
-</div>
-<div class="d">
-<img src="https://randomuser.me/api/portraits/med/men/4.jpg" class="picshu">
-<h3 class="artistName">Crank Cruinkshack</h3>
-<p class="artistDescription"> greatest artist</p>
-</div>
-<div class="d">
-<img src="https://randomuser.me/api/portraits/med/women/7.jpg" class="picshu">
-<h3 class="artistName">Pam Ray</h3>
-<p class="artistDescription"> greatest artist</p>
-</div>
+
 </body>
 </html>
