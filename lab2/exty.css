@@ -1,0 +1,82 @@
+.picshu{
+	display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  float:left;
+padding-top:15px;
+padding-left:30px;
+  vertical-align:middle;
+}
+
+.d{
+	height:10%;
+	width:37%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:solid;
+	border-width:1px;
+	border-radius:5px;
+}
+.d:hover{
+	background-color: #D5E5E4;
+}
+#mainHeading{
+	text-align: left;
+	padding-left:375px;
+}
+
+.artistDescription{
+	font-family: 'Poppins', sans-serif;
+}
+
+.artistName{
+	font-family: 'Lobster', cursive;
+}
+#addButton1{
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+#searchBar{
+font-size:20px;
+width:500px;
+height:30px;
+}
+#search{
+	text-align: center;
+	padding-bottom: 10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#query{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom:10px;
+	display: none;
+}
+#addButton2 {
+	padding:10px 100px;
+}
+.qbars{
+	width: 450px;
+	height: 30px;
+	text-align: center;
+	font-size:30px;
+}
+#nameBar{
+
+}
+
+#aboutBar{
+	
+}
+
+#urlBar{
+	
+}
+
+.deleteButton{
+float:right;
+background-color: red;
+}
